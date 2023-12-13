@@ -47,6 +47,10 @@
     height: auto;
 }
 
+.Index .feature .text{
+    max-width: 45%;
+}
+
 .Index .feature .text p{
    color: var(--Color2);
 }

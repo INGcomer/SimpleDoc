@@ -5,6 +5,7 @@ import BaseLayout from '../Generals/Layout/Layout';
 // IMGs
 import visualization from './img/Paguina de visualizacion.svg'
 import creacion from './img/Paguina de Creacion.svg'
+import directorio from './img/Paguina de Directorio.svg'
 
 
 export default function Index() {
@@ -28,9 +29,9 @@ export default function Index() {
 
                 <div className='feature'>
                     <div className='text'>
-                        <p>Writing feature</p>
-                        <h1>Write <span>easy</span> and build fast</h1>
-                        <p>Publish your documentation on the web and share it with two clicks</p>
+                        <p>Writing feature </p>
+                        <h1>Write <span>easy</span> and build fast. </h1>
+                        <p>Publish your documentation on the web and share it with two clicks. </p>
                     </div>
                     <div className='img'>
                         <img src={creacion} alt="" />
@@ -39,12 +40,23 @@ export default function Index() {
 
                 <div className='feature'>
                     <div className='text'>
-                        <p>Sharing feature</p>
-                        <h1>Public for <span>everyone</span> in seconts</h1>
-                        <p>Publish your documentation on the web and share it with two clicks</p>
+                        <p>Sharing feature </p>
+                        <h1>Public for <span>everyone</span> in seconts. </h1>
+                        <p>Publish your documentation on the web and share it with two clicks. </p>
                     </div>
                     <div className='img'>
                         <img src={visualization} alt="" />
+                    </div>
+                </div>
+
+                <div className='feature'>
+                    <div className='text'>
+                        <p>Storage feature </p>
+                        <h1>All your documentation <br/> in <span>one</span> place. </h1>
+                        <p>Store all your documentation documents here and they will be available everywhere, thanks to our public URL or API.</p>
+                    </div>
+                    <div className='img'>
+                        <img src={directorio} alt="" />
                     </div>
                 </div>
             </div>
