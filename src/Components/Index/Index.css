@@ -25,6 +25,8 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+
+    margin-top: 100px;
 }
 
 .Index .feature .img{
@@ -47,4 +49,7 @@
 
 .Index .feature .text p{
    color: var(--Color2);
+}
+.Index .feature .text span{
+    color: var(--Color4);
 }

@@ -4,6 +4,8 @@ import './Index.css';
 import BaseLayout from '../Generals/Layout/Layout';
 // IMGs
 import visualization from './img/Paguina de visualizacion.svg'
+import creacion from './img/Paguina de Creacion.svg'
+
 
 export default function Index() {
     // <script async data-uid="d2fc8e1c87" src="https://simpledoc.ck.page/d2fc8e1c87/index.js"></script>
@@ -26,8 +28,19 @@ export default function Index() {
 
                 <div className='feature'>
                     <div className='text'>
+                        <p>Writing feature</p>
+                        <h1>Write <span>easy</span> and build fast</h1>
+                        <p>Publish your documentation on the web and share it with two clicks</p>
+                    </div>
+                    <div className='img'>
+                        <img src={creacion} alt="" />
+                    </div>
+                </div>
+
+                <div className='feature'>
+                    <div className='text'>
                         <p>Sharing feature</p>
-                        <h1>Public in seconts</h1>
+                        <h1>Public for <span>everyone</span> in seconts</h1>
                         <p>Publish your documentation on the web and share it with two clicks</p>
                     </div>
                     <div className='img'>
