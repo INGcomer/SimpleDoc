@@ -30,7 +30,7 @@ export default function Index() {
                 <div className='feature'>
                     <div className='text'>
                         <p>Writing feature </p>
-                        <h1>Write <span>easy</span> and build fast. </h1>
+                        <h2>Write <span>easy</span> and build fast. </h2>
                         <p>Publish your documentation on the web and share it with two clicks. </p>
                     </div>
                     <div className='img'>
@@ -41,7 +41,7 @@ export default function Index() {
                 <div className='feature'>
                     <div className='text'>
                         <p>Sharing feature </p>
-                        <h1>Public for <span>everyone</span> in seconts. </h1>
+                        <h2>Public for <span>everyone</span> in seconts. </h2>
                         <p>Publish your documentation on the web and share it with two clicks. </p>
                     </div>
                     <div className='img'>
@@ -52,12 +52,17 @@ export default function Index() {
                 <div className='feature'>
                     <div className='text'>
                         <p>Storage feature </p>
-                        <h1>All your documentation <br/> in <span>one</span> place. </h1>
+                        <h2>All your documentation <br/> in <span>one</span> place. </h2>
                         <p>Store all your documentation documents here and they will be available everywhere, thanks to our public URL or API.</p>
                     </div>
                     <div className='img'>
                         <img src={directorio} alt="" />
                     </div>
+                </div>
+
+                <div className='CallToAction'>
+                    <h2>Don't miss what's coming</h2>
+                    <button> Stay in touch </button>
                 </div>
             </div>
         </BaseLayout>

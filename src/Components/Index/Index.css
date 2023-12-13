@@ -1,13 +1,14 @@
 .Index{
-    padding: 150px;
+    /* padding: 150px;
     padding-top: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 0px; */
 }
 
 .Index .header{
     padding: 150px;
     padding-top: 0px;
     padding-bottom: 0px;
+
 
     margin-top: 100px;
     margin-bottom: 100px;
@@ -17,11 +18,18 @@
     align-items: center;
 }
 
+.Index .header h1{
+    font-size: 3.5rem;
+}
 .Index .header h1 span{
     color: var(--Color4);
 }
 
 .Index .feature{
+    padding: 150px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -54,6 +62,31 @@
 .Index .feature .text p{
    color: var(--Color2);
 }
+.Index .feature .text h2{
+   font-size: 3rem;
+}
 .Index .feature .text span{
     color: var(--Color4);
+}
+
+
+.Index .CallToAction {
+    padding: 50px;
+    margin-top: 100px;
+    
+    background-color: var(--Color4);
+    color: var(--Color1);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Index .CallToAction h2{
+    font-size: 3rem;
+}
+
+.Index .CallToAction button{
+    background-color: var(--Color1);
+    color: var(--Color3);
 }
