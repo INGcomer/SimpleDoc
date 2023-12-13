@@ -1,0 +1,50 @@
+.Index{
+    padding: 150px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.Index .header{
+    padding: 150px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Index .header h1 span{
+    color: var(--Color4);
+}
+
+.Index .feature{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.Index .feature .img{
+
+    padding: 10px;
+    padding-bottom: 0px;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--Color2);
+    border-radius: 50px;
+
+    overflow: hidden;
+}
+
+.Index .feature .img img{
+    width: 700px;
+    height: auto;
+}
+
+.Index .feature .text p{
+   color: var(--Color2);
+}
