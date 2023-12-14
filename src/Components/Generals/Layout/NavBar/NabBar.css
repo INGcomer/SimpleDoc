@@ -18,3 +18,13 @@
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
 }
+
+
+@media (max-width: 600px) {  
+    .navbar {
+        padding: 50px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+}
