@@ -52,4 +52,16 @@ button{
   background-color: var(--Color4);
 
   cursor: pointer;
+
+  transition: all 0.25s;
+}
+
+button:hover{
+  color: var(--Color3);
+}
+
+button:disabled{
+  background-color: var(--Color2);
+
+  cursor: default;
 }

@@ -6,10 +6,10 @@ import Navbar from "./NavBar/NavBar";
 import Footer from "./Footer/Footer";
 
 export default function BaseLayout(props) {
-    const { children } = props
+    const { children, handleOpen } = props
     return (
         <React.Fragment>
-            <Navbar/>
+            <Navbar handleOpen={handleOpen}/>
             { children }
             <Footer/>
         </React.Fragment>
