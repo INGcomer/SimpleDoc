@@ -23,6 +23,8 @@ export default function Index() {
                     <button>
                         Join the waiting list.
                     </button>
+
+                    <div className='dots'/>
                 </div>
 
                 <script async data-uid="d2fc8e1c87" src="https://simpledoc.ck.page/d2fc8e1c87/index.js"></script>
@@ -63,6 +65,7 @@ export default function Index() {
                 <div className='CallToAction'>
                     <h2>Don't miss what's coming</h2>
                     <button> Stay in touch </button>
+                    <div className='dots'/>
                 </div>
             </div>
         </BaseLayout>

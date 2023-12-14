@@ -1,31 +1,62 @@
-.Index{
-    /* padding: 150px;
-    padding-top: 0px;
-    padding-bottom: 0px; */
-}
-
-.Index .header{
+.Index .header {
     padding: 150px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-
-
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    gap: 50px;
 }
 
-.Index .header h1{
+.Index .header .dots {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+
+    --tw-gradient-from-position: ;
+    --tw-gradient-via-position: ;
+    --tw-gradient-to-position: ;
+
+    --tw-gradient-from: #475569 var(--tw-gradient-from-position);
+    --tw-gradient-to: rgba(71, 85, 105, 0) var(--tw-gradient-to-position);
+    /* --tw-gradient-to: rgba(71,85,105) var(--tw-gradient-to-position); */
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+
+    --dots-size: 0.09375rem;
+    /* --dots-size: 0.2rem; */
+    --dots-separation: 1.25rem 1.25rem;
+    --mask-transparency: 80%;
+    --position: 180deg;
+    --mask-image: radial-gradient(rgb(0, 0, 0), transparent var(--mask-transparency));
+
+    background-image: radial-gradient(circle, var(--tw-gradient-stops) var(--dots-size), var(--tw-gradient-stops) var(--dots-size), transparent var(--dots-size), transparent 100%);
+    background-size: var(--dots-separation);
+    /* -webkit-mask-image: var(--mask-image); */
+    mask-image: var(--mask-image);
+}
+
+.Index .header h1,
+.Index .header p,
+.Index .header button {
+    z-index: 1;
+    margin: 0px;
+}
+
+.Index .header h1 {
     font-size: 3.5rem;
 }
-.Index .header h1 span{
+
+.Index .header h1 span {
     color: var(--Color4);
 }
 
-.Index .feature{
+.Index .feature {
     padding: 150px;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -37,7 +68,7 @@
     margin-top: 100px;
 }
 
-.Index .feature .img{
+.Index .feature .img {
 
     padding: 10px;
     padding-bottom: 0px;
@@ -50,30 +81,34 @@
     overflow: hidden;
 }
 
-.Index .feature .img img{
+.Index .feature .img img {
     width: 700px;
     height: auto;
 }
 
-.Index .feature .text{
+.Index .feature .text {
     max-width: 45%;
 }
 
-.Index .feature .text p{
-   color: var(--Color2);
+.Index .feature .text p {
+    color: var(--Color2);
 }
-.Index .feature .text h2{
-   font-size: 3rem;
+
+.Index .feature .text h2 {
+    font-size: 3rem;
 }
-.Index .feature .text span{
+
+.Index .feature .text span {
     color: var(--Color4);
 }
 
 
 .Index .CallToAction {
+    position: relative;
+
     padding: 50px;
     margin-top: 100px;
-    
+
     background-color: var(--Color4);
     color: var(--Color1);
 
@@ -82,11 +117,48 @@
     align-items: center;
 }
 
-.Index .CallToAction h2{
+.Index .CallToAction .dots {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+
+    /* background-color: red; */
+
+    --tw-gradient-from-position: ;
+    --tw-gradient-via-position: ;
+    --tw-gradient-to-position: ;
+
+    --tw-gradient-from: #475569 var(--tw-gradient-from-position);
+    --tw-gradient-to: rgba(71,85,105,0) var(--tw-gradient-to-position);
+    /* --tw-gradient-to: rgba(71, 85, 105) var(--tw-gradient-to-position); */
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+
+    --dots-size: 0.09375rem;
+    /* --dots-size: 0.2rem; */
+    --dots-separation: 1.25rem 1.25rem;
+    --mask-transparency: 80%;
+    --position: 180deg;
+    --mask-image: radial-gradient(rgb(0, 0, 0), transparent var(--mask-transparency));
+
+    background-image: radial-gradient(circle, var(--tw-gradient-stops) var(--dots-size), var(--tw-gradient-stops) var(--dots-size), transparent var(--dots-size), transparent 100%);
+    background-size: var(--dots-separation);
+    /* -webkit-mask-image: var(--mask-image); */
+    mask-image: var(--mask-image);
+}
+
+.Index .CallToAction h2, .Index .CallToAction button {
+    z-index: 1;
+}
+
+.Index .CallToAction h2 {
     font-size: 3rem;
 }
 
-.Index .CallToAction button{
+.Index .CallToAction button {
     background-color: var(--Color1);
     color: var(--Color3);
 }
