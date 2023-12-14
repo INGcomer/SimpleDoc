@@ -168,8 +168,8 @@ export default function Index() {
                 sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
                 open={open}
             >
-                <div className="backdropdiv" onClick={()=> handleClose()}>
-                <CloseIcon className="CloseIcon"/>
+                <div className="backdropdiv">
+                <CloseIcon className="CloseIcon" onClick={()=> handleClose()}/>
                     <form onSubmit={handleSubmit(onSubmit)}>
 
                         <p>
