@@ -37,7 +37,7 @@
 
     background-image: radial-gradient(circle, var(--tw-gradient-stops) var(--dots-size), var(--tw-gradient-stops) var(--dots-size), transparent var(--dots-size), transparent 100%);
     background-size: var(--dots-separation);
-    /* -webkit-mask-image: var(--mask-image); */
+    -webkit-mask-image: var(--mask-image);
     mask-image: var(--mask-image);
 }
 
@@ -146,7 +146,7 @@
 
     background-image: radial-gradient(circle, var(--tw-gradient-stops) var(--dots-size), var(--tw-gradient-stops) var(--dots-size), transparent var(--dots-size), transparent 100%);
     background-size: var(--dots-separation);
-    /* -webkit-mask-image: var(--mask-image); */
+    -webkit-mask-image: var(--mask-image);
     mask-image: var(--mask-image);
 }
 
@@ -161,4 +161,113 @@
 .Index .CallToAction button {
     background-color: var(--Color1);
     color: var(--Color3);
+}
+
+
+.backdropdiv {
+    position: relative;
+
+    height: 30%;
+    width: 40%;
+
+    padding: 150px;
+
+    border-radius: 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(29, 28, 35, 0.4);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.backdropdiv input{
+    color: var(--Color3) !important;
+}
+
+.backdropdiv .butonContainer{
+    margin-top: 50px;
+
+    display: flex;
+    gap: 50px;
+}
+
+.backdropdiv p.msg{
+    color: var(--Color4);
+}
+.backdropdiv .CloseIcon{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    margin: 25px;
+
+    height: 25px;
+    width: 25px;
+
+    cursor: pointer;
+}
+
+
+@media (max-width: 1450px) {  
+    .Index .feature .img img {
+        width: 500px;
+    }
+}
+
+@media (max-width: 600px) {  
+    .Index .header {
+        padding: 50px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .Index .feature {
+        padding: 50px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Index .feature .text {
+        max-width: none;
+    }
+
+    .Index .feature .img {
+        margin-top: 50px;
+    }
+
+    .Index .feature .img img {
+        width: 80%;
+    }
+
+    .Index .CallToAction h2 {
+        font-size: 2rem;
+    }
+
+    .backdropdiv {
+        position: relative;
+    
+        height: 30%;
+        width: 60%;
+    
+        padding: 50px;
+    
+        border-radius: 50px;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+        background: rgba(29, 28, 35, 0.4);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+    }
 }
