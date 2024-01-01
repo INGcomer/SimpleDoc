@@ -106,3 +106,59 @@
 
     background-color: var(--Color4);
 }
+
+.Documents_page .documents{
+    width: 100%;
+}
+
+.Documents_page .documents .row{
+    padding-left: 50px;
+    
+    display: flex;
+
+    font-size: 0.9rem;
+
+    border-style: solid;
+    border-color: var(--Color2);
+    border-width: 0px;
+    border-bottom-width: 1px;
+
+    transition: all 0.2s;
+}
+
+.Documents_page .documents .row.title{
+    font-size: 1.1rem;
+    border-bottom-width: 3px;
+}
+
+.Documents_page .documents .row.file{
+    height: 60px;
+    align-items: center;
+}
+.Documents_page .documents .row.file:hover{
+   border-color: var(--Color4);
+   cursor: pointer;
+
+   background-color: var(--Color2);
+
+   background: rgba(71, 71, 75, 0.4);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.Documents_page .documents .row.title .campo{
+    opacity: 50%;
+}
+
+.Documents_page .documents .row .campo.name{
+    width: 40%;
+}
+.Documents_page .documents .row .campo.loaction{
+    width: 30%;
+}
+.Documents_page .documents .row .campo.created{
+    width: 15%;
+}
+.Documents_page .documents .row .campo.edited{
+    width: 15%;
+}

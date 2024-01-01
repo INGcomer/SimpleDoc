@@ -9,6 +9,22 @@
   --Color8: #483E9A;
 }
 
+::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar
+{
+	width: 4px;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: var(--Color4);
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito');
 
 /* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap'); */

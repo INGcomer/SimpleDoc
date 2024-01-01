@@ -56,7 +56,36 @@ export default function Documents() {
 
                 </div>
                 <div className='documents'>
-
+                    <div className='row title'>
+                        <div className='campo name'> NAME </div>
+                        <div className='campo loaction'> LOCATION </div>
+                        <div className='campo created'> CREATED </div>
+                        <div className='campo edited'> EDITED </div>
+                    </div>
+                    <div className='row file'>
+                        <div className='campo name'> NAME </div>
+                        <div className='campo loaction'> LOCATION </div>
+                        <div className='campo created'> CREATED </div>
+                        <div className='campo edited'> EDITED </div>
+                    </div>
+                    <div className='row file'>
+                        <div className='campo name'> NAME </div>
+                        <div className='campo loaction'> LOCATION </div>
+                        <div className='campo created'> CREATED </div>
+                        <div className='campo edited'> EDITED </div>
+                    </div>
+                    <div className='row file'>
+                        <div className='campo name'> NAME </div>
+                        <div className='campo loaction'> LOCATION </div>
+                        <div className='campo created'> CREATED </div>
+                        <div className='campo edited'> EDITED </div>
+                    </div>
+                    <div className='row file'>
+                        <div className='campo name'> NAME </div>
+                        <div className='campo loaction'> LOCATION </div>
+                        <div className='campo created'> CREATED </div>
+                        <div className='campo edited'> EDITED </div>
+                    </div>
                 </div>
             </div>
         </BaseLayout>
