@@ -6,3 +6,10 @@
 
     min-height: 80vh;
 }
+
+.route div{
+    height: 50px;
+}
+.route div p{
+    height: 50px;
+}

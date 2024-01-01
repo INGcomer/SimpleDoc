@@ -4,7 +4,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 // Components
 import Index from './Components/Index/Index';
-import Crear from './Components/Crear/Crear.tsx';
+import CrearTexto from './Components/Crear/Crear.tsx';
+import Documents from './Components/documents/documents.jsx';
 // CSS 
 import './index.css';
 
@@ -17,7 +18,12 @@ root.render(
         <Route path="/" element={<Index/>} />
         <Route path="/home" element={<Index/>} />
 
-        <Route path="/crear" element={<Crear/>} />
+        <Route path="/documents" element={<Documents/>} />
+
+        <Route path="/crear/texto" element={<CrearTexto/>} />
+        <Route path="/crear/rutas" element={<CrearTexto/>} />
+
+        <Route path="/view/:id_documento" element={<CrearTexto/>} />
 
       </Routes>
     </BrowserRouter> 

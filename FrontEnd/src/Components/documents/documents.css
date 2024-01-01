@@ -1,0 +1,108 @@
+.Documents_page {
+    height: 90vh;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.Documents_page .navigation{
+    width: 250px;
+
+    padding: 150px;
+    padding: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    border-color: var(--Color2);
+    border-style: solid;
+    border-width: 0px;
+    border-right-width: 3px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Documents_page .navigation .title_folders{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Documents_page .navigation .title_folders .new_folder{
+    background-color: transparent;
+    color: var(--Color2);
+}
+.Documents_page .navigation .title_folders .new_folder:hover{
+    background-color: transparent;
+    color: var(--Color3);
+}
+
+.Documents_page .navigation .folders{
+    height: 100%;
+
+    max-height: 60vh;
+
+    overflow-y: scroll;
+}
+
+.Documents_page .navigation .folders .folder{
+    margin-bottom: 20px;
+
+    font-size: 1.3rem;
+    color: var(--Color4);
+
+    border-width: 0px;
+    border-bottom-width: 2px;
+    border-style: solid;
+    border-color: transparent;
+
+    cursor: pointer;
+
+    transition: all 0.2s;
+}
+
+.Documents_page .navigation .folders .folder:hover{
+    border-color: var(--Color4);
+}
+
+.Documents_page .navigation .folders .folder span{
+    color: var(--Color3);
+}
+
+.Documents_page .navigation .newfile {
+    margin-bottom: 25px;
+}
+.Documents_page .navigation .newfile button{
+    width: 100%;
+
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.Documents_page .navigation .newfile .basic_plan_files_info{
+    color: var(--Color3);
+}
+.Documents_page .navigation .newfile .basic_plan_files_info a{
+    color: var(--Color3);
+}
+
+.Documents_page .navigation .newfile .basic_plan_files_info .barra_progreso{
+    height: 25px;
+    width: 100%;
+
+    margin-bottom: 25px;
+
+    border-radius: 50px;
+
+    background-color: var(--Color2);
+}
+
+.Documents_page .navigation .newfile .basic_plan_files_info .barra_progreso .indicator{
+    height: 25px;
+    width: 60%;
+
+    margin-bottom: 25px;
+
+    border-radius: 50px;
+
+    background-color: var(--Color4);
+}
