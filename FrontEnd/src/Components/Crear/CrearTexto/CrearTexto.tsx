@@ -12,9 +12,9 @@ import {
 } from "@blocknote/react";
 import "@blocknote/core/style.css";
 // CSS
-import './Crear.css';
+import './CrearTexto.css';
 // Components
-import BaseLayout from '../Generals/Layout/Layout';
+import BaseLayout from '../../Generals/Layout/Layout';
 
 const darkRedTheme = {
     ...darkDefaultTheme,
@@ -30,7 +30,7 @@ const darkRedTheme = {
     },
 } satisfies Theme;
 
-export default function Crear() {
+export default function CrearTexto() {
     // Stores the editor's contents as an array of Block objects.
     const [blocks, setBlocks] = useState<Block[] | null>(null);
 

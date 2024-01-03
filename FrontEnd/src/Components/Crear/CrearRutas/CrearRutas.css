@@ -1,0 +1,13 @@
+.CrearRutas{
+    padding: 150px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+
+    display: flex;
+    flex-direction: column;
+}
+.CrearRutas form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

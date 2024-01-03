@@ -1,0 +1,21 @@
+.route {
+    padding: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    border-width: 3px;
+    border-style: solid;
+    border-color: var(--Color2);
+    border-radius: 50px;
+}
+
+.route .method-route{
+    display: flex;
+    justify-content: space-between;
+
+    gap: 100px;
+}
+
+.route .method-route .RouteUrl{
+    width: 100%;
+}

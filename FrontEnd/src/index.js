@@ -4,10 +4,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 // Components
 import Index from './Components/Index/Index';
-import CrearTexto from './Components/Crear/Crear.tsx';
+import CrearTexto from './Components/Crear/CrearTexto/CrearTexto.tsx';
+import CrearRutas from './Components/Crear/CrearRutas/CrearRutas.jsx';
 import Documents from './Components/documents/documents.jsx';
 // CSS 
 import './index.css';
+import './Components/Generals/Inputs/Input.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,7 +23,7 @@ root.render(
         <Route path="/documents" element={<Documents/>} />
 
         <Route path="/crear/texto" element={<CrearTexto/>} />
-        <Route path="/crear/rutas" element={<CrearTexto/>} />
+        <Route path="/crear/rutas" element={<CrearRutas/>} />
 
         <Route path="/view/:id_documento" element={<CrearTexto/>} />
 
